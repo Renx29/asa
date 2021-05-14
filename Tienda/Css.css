@@ -1,0 +1,62 @@
+body{
+  padding: 0px;
+  margin: 0px;
+background:image(imagenes/wallpaper);
+font-family: fantasy;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+.Menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+  
+li a:hover {
+  background-color: #111;
+}
+
+#contents {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: black;
+  font-family:fantasy;
+  color: white;
+  border-width: 20px;
+  border-style: inset;
+}
+img {
+  border: 5px outset black;
+}
+#Producto {
+  background-color: white;
+  padding: 10px;
+  border-width: 5px;
+  border-style: outset;
+  color: black;
+  margin: 50px;
+  
+}
